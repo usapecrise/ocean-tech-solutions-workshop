@@ -1436,7 +1436,7 @@ section {
 
 .register-copy h3 {
   color: #163a5f;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 800;
   text-transform: uppercase;
   margin: 0 0 10px;
@@ -1457,7 +1457,7 @@ section {
 
 .register-copy p {
   color: #002b3f;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.65;
   margin-bottom: 22px;
 }
