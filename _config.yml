@@ -1,0 +1,22 @@
+title: 18th Meeting of the APEC Alliance for Supply Chain Connectivity
+description: >
+  Strengthening Regional Supply Chain Connectivity Through Public-Private Collaboration
+
+baseurl: "/A2C2-Meeting-Website"
+url: "https://usapecrise.github.io"
+
+markdown: kramdown
+
+logo: "/css/2016_style/img/icon-large.png"
+
+social: []
+
+google_site_verification: googleXXXXXXXXXXXXXXXX.html
+
+include: ['_2016_pages', '_2017_pages']
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+permalink: pretty
