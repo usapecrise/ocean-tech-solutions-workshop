@@ -1,0 +1,19 @@
+<footer>
+
+    <p class="footer-text">
+        © {{ 'now' | date: "%Y" }} US APEC-RISE Program
+        <span class="divider">·</span>
+        All rights reserved.
+    </p>
+
+    <ul class="list-inline social-buttons">
+        {% for network in site.social %}
+        <li>
+            <a href="{{ network.url }}">
+                <i class="fa fa-{{ network.title }}"></i>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+</footer>
