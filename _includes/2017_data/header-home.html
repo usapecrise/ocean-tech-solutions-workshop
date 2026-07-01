@@ -1,4 +1,5 @@
-<header>
+<header style="position:relative;">
+
   <!-- NAVBAR -->
   <nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
     <div class="container">
@@ -12,10 +13,13 @@
           <span class="icon-bar"></span>
         </button>
 
-        <!-- invisible spacer -->
-        <a class="navbar-brand page-scroll" href="/" style="visibility:hidden; width:150px;">
+        <!-- Invisible spacer for logo -->
+        <a class="navbar-brand page-scroll"
+           href="/"
+           style="visibility:hidden; width:150px;">
           placeholder
         </a>
+
       </div>
 
       <!-- Nav links -->
@@ -31,12 +35,32 @@
     </div>
   </nav>
 
+  <!-- TOP LEFT EVENT LOGO -->
+  <div style="
+      position:absolute;
+      top:42px;
+      left:70px;
+      z-index:10;
+  ">
+
+    <img
+      src="{{ '/css/2016_style/img/event-logo.png' | relative_url }}"
+      alt="Event Logo"
+      style="
+        width:250px;
+        max-width:25vw;
+        height:auto;
+      "
+    >
+
+  </div>
+
   <!-- HERO -->
   <div class="container">
     <div class="intro-text">
 
       <div class="intro-heading">
-         APEC Workshop: Launch for Ocean Tech Solutions 
+         APEC Workshop: Launch for Ocean Tech Solutions
       </div>
 
       <div class="intro-lead-in" style="max-width:700px; margin:20px auto;">
@@ -57,4 +81,5 @@
 
     </div>
   </div>
+
 </header>
